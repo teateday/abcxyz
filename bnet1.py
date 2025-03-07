@@ -16,7 +16,7 @@ def delete_directory(dir_path):
             time.sleep(0.02)
             print_progress_bar(i + 1, total_files)
         shutil.rmtree(dir_path)
-        print("\r[TAT07]████████████████████████████████████████| 100%")
+        print("\r████████████████████████████████████████| 100%")
         print("\n\033[1;35m[TAT07] SEVER MAXSPEED HÃY MUA VIP ĐỂ SỬ DỤNG NHÉ!")
     except PermissionError:
         print("VLXX.SEC.COM")
