@@ -9,7 +9,7 @@ vang = "\033[1;33m"
 trang = "\033[1;37m"
 tim = "\033[1;35m"
 xanh = "\033[1;36m"
-thanh = f'{do}[{trang}TAT07{do}] {trang}=> '
+thanh = f'{do}[{trang}</>{do}] {trang}=> '
 
 def banner():
     os.system('cls' if os.name=='nt' else 'clear')
